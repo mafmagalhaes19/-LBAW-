@@ -1,0 +1,50 @@
+.home_image {
+  width: 23%;
+  height: auto;
+}
+
+.nav-link.active {
+  border-color: #1a1a1a !important;
+  border-bottom-color: transparent !important;
+}
+
+.nav-link:hover {
+  border-color: #1a1a1a !important;
+  border-bottom-color: transparent !important;
+}
+
+.nav-tabs {
+ border-bottom: 1px solid #1a1a1a;
+}
+
+.user-pic {
+  padding: 0;
+  border: 0.3rem solid var(--border);
+  border-radius: 50% 50%;
+  width: 50%;
+  height: auto;
+}
+
+.popup-container {
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: rgba(255, 255, 255, 1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-elems {
+  margin: 1rem;
+}

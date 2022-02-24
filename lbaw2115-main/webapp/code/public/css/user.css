@@ -1,0 +1,11 @@
+.user-pic {
+    padding: 0;
+    border: 0.3rem solid var(--border);
+    border-radius: 50% 50%;
+    width: 50%;
+}
+
+.user-info {
+    padding: 12px, 0px, 4px; /* bootstrap: pt-3 pb-1 */
+    border-radius: 0.25rem; /* bootstrap: rounded */
+}
